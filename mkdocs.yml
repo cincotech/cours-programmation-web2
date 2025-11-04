@@ -1,5 +1,5 @@
 # Site settings
-site_name: "cours de Programmation web 2"
+site_name: "Cours de Programmation web 2"
 site_description: "Supports et exercices pour le cours de Programmation web 2"
 site_author: "Cincotech"
 site_url: "https://cincotech.github.io/cours-programmation-web2/"
@@ -17,6 +17,9 @@ theme:
 # Navigation
 nav:
     - Accueil: index.md
+    - Objectifs:
+          - Objectif Général: objectif/obectif-general.md
+          - Objectifs Spécifiques: objectif/obectifs-specifiques.md
     - Module 1:
           - Leçon 1: module1-introduction/lesson1.md
           - Leçon 2: module1-introduction/lesson2.md
