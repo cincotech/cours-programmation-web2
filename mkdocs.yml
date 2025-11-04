@@ -1,0 +1,82 @@
+# Site settings
+site_name: "cours de Programmation web 2"
+site_description: "Supports et exercices pour le cours de Programmation web 2"
+site_author: "Cincotech"
+site_url: "https://cincotech.github.io/cours-programmation-web2/"
+
+# Theme configuration
+theme:
+    name: "material"
+    palette:
+        primary: "blue"
+        accent: "orange"
+    font:
+        text: "Arial, sans-serif"
+        code: "Courier New, monospace"
+
+# Navigation
+nav:
+    - Accueil: index.md
+    - Module 1:
+          - Leçon 1: module1-introduction/lesson1.md
+          - Leçon 2: module1-introduction/lesson2.md
+          - Exercices: module1-introduction/exercises.md
+    - Module 2:
+          - Leçon 1: module2-architecture/lesson1.md
+          - Leçon 2: module2-architecture/lesson2.md
+          - Exercices: module2-architecture/exercises.md
+    - Module 3:
+          - Leçon 1: module3-installation/lesson1.md
+          - Leçon 2: module3-installation/lesson2.md
+          - Leçon 3: module3-installation/lesson3.md
+          - Exercices: module3-installation/exercises.md
+    - Module 4:
+          - Leçon 1: module4-comptes-securite/lesson1.md
+          - Leçon 2: module4-comptes-securite/lesson2.md
+          - Leçon 3: module4-comptes-securite/lesson3.md
+          - Exercices: module4-comptes-securite/exercises.md
+    - Module 5:
+          - Leçon 1: module5-fichiers-stockage/lesson1.md
+          - Leçon 2: module5-fichiers-stockage/lesson2.md
+          - Leçon 3: module5-fichiers-stockage/lesson3.md
+          - Exercices: module5-fichiers-stockage/exercises.md
+    - Module 6:
+          - Leçon 1: module6-applications/lesson1.md
+          - Leçon 2: module6-applications/lesson2.md
+          - Leçon 3: module6-applications/lesson3.md
+          - Exercices: module6-applications/exercises.md
+    - Module 7:
+          - Leçon 1: module7-reseaux/lesson1.md
+          - Leçon 2: module7-reseaux/lesson2.md
+          - Exercices: module7-reseaux/exercises.md
+    - Module 8:
+          - Leçon 1: module8-services-admin/lesson1.md
+          - Leçon 2: module8-services-admin/lesson2.md
+          - Leçon 3: module8-services-admin/lesson3.md
+          - Exercices: module8-services-admin/exercises.md
+    - Module 9:
+          - Leçon 1: module9-automatisation-scripts/lesson1.md
+          - Leçon 2: module9-automatisation-scripts/lesson2.md
+          - Exercices: module9-automatisation-scripts/exercises.md
+    - Module 10:
+          - Leçon 1: module10-securite-maintenance/lesson1.md
+          - Leçon 2: module10-securite-maintenance/lesson2.md
+          - Leçon 3: module10-securite-maintenance/lesson3.md
+          - Exercices: module10-securite-maintenance/exercises.md
+    - Module 11:
+          - Leçon 1: module11-depannage/lesson1.md
+          - Leçon 2: module11-depannage/lesson2.md
+          - Leçon 3: module11-depannage/lesson3.md
+          - Exercices: module11-depannage/exercises.md
+    - Ressources: resources/cheat_sheet.pdf
+
+# Plugins
+plugins:
+    - search
+
+# Markdown extensions
+markdown_extensions:
+    - admonition
+    - codehilite
+    - toc:
+          permalink: true
